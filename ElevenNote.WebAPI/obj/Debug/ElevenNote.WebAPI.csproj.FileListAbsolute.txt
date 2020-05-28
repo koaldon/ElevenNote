@@ -123,3 +123,5 @@ C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.WebAPI\obj\De
 C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.WebAPI\obj\Debug\ElevenNote.WebAPI.csproj.CopyComplete
 C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.WebAPI\obj\Debug\ElevenNote.WebAPI.dll
 C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.WebAPI\obj\Debug\ElevenNote.WebAPI.pdb
+C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.WebAPI\bin\Swashbuckle.Core.dll
+C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.WebAPI\bin\WebActivatorEx.dll
