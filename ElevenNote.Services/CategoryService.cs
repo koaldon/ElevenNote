@@ -10,20 +10,15 @@ using System.Threading.Tasks;
 
 namespace ElevenNote.Services
 {
-  public class CategoryService
+    public class CategoryService
     {
-        private readonly Guid _userId;
 
-        public CategoryService(Guid userId)
-        {
-            _userId = userId;
-        }
+
         public bool CreateCategory(CategoryCreate model)
         {
             var entity =
                 new Category()
                 {
-                    OwnerId=_userId,
                     Name = model.Name,
                     Description = model.Description,
                     CreatedUtc = DateTimeOffset.Now
@@ -41,7 +36,6 @@ namespace ElevenNote.Services
                 var query =
                     ctx
                         .Categories
-                        .Where(e => e.OwnerId == _userId)
                         .Select(
                             e =>
                                 new CategoriesListItem
@@ -55,6 +49,40 @@ namespace ElevenNote.Services
                 return query.ToArray();
             }
         }
-        
+        public CategoryDetail GetCategoryById(int id)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity =
+                    ctx
+                        .Categories
+                        .Single(e => e.CategoryId == id);
+                return
+            new CategoryDetail
+            {
+                CategoryId = entity.CategoryId,
+                Name = entity.Name,
+                CreatedUtc = entity.CreatedUtc,
+                ModifiedUtc = entity.ModifiedUtc
+            };
+            }
+        }
+        public bool UpdateCategory(CategoryEdit model)
+        {
+            using(var ctx = new ApplicationDbContext())
+            {
+                var entity =
+                    ctx
+                        .Categories
+                        .Single(e => e.CategoryId == model.CategoryId);
+
+                entity.Name = model.Name;
+                entity.Description = model.Description;
+                entity.ModifiedUtc = DateTimeOffset.UtcNow;
+
+                return ctx.SaveChanges() == 1;
+            }
+        }
+
     }
 }
