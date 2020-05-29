@@ -21,6 +21,7 @@ namespace ElevenNote.Services
 
         public bool CreateNote(NoteCreate model)
         {
+            
             var entity =
                 new Note()
                 {

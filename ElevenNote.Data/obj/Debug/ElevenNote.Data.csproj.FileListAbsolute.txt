@@ -28,8 +28,8 @@ C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\bin\Debu
 C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\bin\Debug\System.Web.Http.xml
 C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\bin\Debug\System.Web.Http.Owin.xml
-C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.csprojAssemblyReference.cache
 C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.csproj.CoreCompileInputs.cache
 C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.csproj.CopyComplete
 C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.dll
 C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.pdb
+C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.csprojAssemblyReference.cache

@@ -17,6 +17,7 @@ namespace ElevenNote.WebAPI.Controllers
         {
             var userId = Guid.Parse(User.Identity.GetUserId());
             var noteService = new NoteService(userId);
+            
             return noteService;
         }
         public IHttpActionResult Get()

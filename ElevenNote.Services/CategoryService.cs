@@ -83,7 +83,7 @@ namespace ElevenNote.Services
                 return ctx.SaveChanges() == 1;
             }
         }
-        public bool DeleteNote(int categoryId)
+        public bool DeleteCategory(int categoryId)
         {
             using (var ctx = new ApplicationDbContext())
             {

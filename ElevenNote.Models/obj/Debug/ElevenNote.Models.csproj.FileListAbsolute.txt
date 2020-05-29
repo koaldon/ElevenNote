@@ -14,3 +14,6 @@ C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.Models\obj\De
 C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.Models\obj\Debug\ElevenNote.Models.csproj.CopyComplete
 C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.Models\obj\Debug\ElevenNote.Models.dll
 C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.Models\obj\Debug\ElevenNote.Models.pdb
+C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.Models\bin\Debug\ElevenNote.Data.dll
+C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.Models\bin\Debug\ElevenNote.Data.pdb
+C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.Models\bin\Debug\ElevenNote.Data.dll.config
