@@ -33,3 +33,5 @@ C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debu
 C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.dll
 C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.pdb
 C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.csprojAssemblyReference.cache
+C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.Migrations.UpdateToEnableForeignKey.resources
+C:\Users\koald\Documents\ElevenFiftyProjects\ElevenNote\ElevenNote.Data\obj\Debug\ElevenNote.Data.csproj.GenerateResource.cache

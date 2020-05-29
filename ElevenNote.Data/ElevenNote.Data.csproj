@@ -86,6 +86,10 @@
   <ItemGroup>
     <Compile Include="Category.cs" />
     <Compile Include="IdentityModels.cs" />
+    <Compile Include="Migrations\202005291346499_UpdateToEnableForeignKey.cs" />
+    <Compile Include="Migrations\202005291346499_UpdateToEnableForeignKey.Designer.cs">
+      <DependentUpon>202005291346499_UpdateToEnableForeignKey.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -93,6 +97,11 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202005291346499_UpdateToEnableForeignKey.resx">
+      <DependentUpon>202005291346499_UpdateToEnableForeignKey.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
